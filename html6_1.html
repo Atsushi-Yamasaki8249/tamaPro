@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>フォーム要素</title>
+    </head>
+    <body>
+        <h1>商品の購入</h1>
+        <form method="GET" action="html6_1.html">
+            <p><label for="name">お名前</label></p>
+            <input type="text" id="name" name="name" size="30">
+            <p>性別</p>
+            <input type="radio" id="male" name="sex" value="male">男性
+            <input type="radio" id="female" name="sex" value="female">女性
+            <input type="radio" id="none" name="sex" value="none" checked>回答しない
+            <p>注文する商品</p>
+            <select id="items" multiple>
+                <option value="gyoza">餃子</option>
+                <option value="shumai">焼売</option>
+                <option value="shorompo">小籠包</option>
+            </select>
+            <p>配送時間希望</p>
+            <select id="time" name="time">
+                <option value="morning">午前中</option>
+                <option value="12_14">12時~14時</option>
+                <option value="14_16">14時~16時</option>
+                <option value="16_18">16時~18時</option>
+                <option value="18_20" selected>18時~20時</option>
+            </select>
+            <p>その他、特記事項があれば記入してください。</p>
+            <textarea id="notice" name="notice" rows="4" cols="50"></textarea>
+            <br>
+            <input type="submit" name="submit" id="submit" value="送信"> 
+        </form>
+    </body>
+</html>
