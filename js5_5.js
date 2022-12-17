@@ -13,7 +13,7 @@ while(j > 0){   //jが0より大きい間
 let a = 28;
 let b = 16;
 if(a < b){   //aの方がbより大きい状態を作り出す
-    let kari = a;
+    let kari = b;
     b = a;
     a = kari;
 }
