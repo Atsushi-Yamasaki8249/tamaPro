@@ -1,1 +1,0 @@
-document.getElementById('judge').textContent = "正常";
