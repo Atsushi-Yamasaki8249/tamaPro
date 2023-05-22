@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>フォーム要素</title>
+    </head>
+    <body>
+        <h1>商品の購入</h1>
+        <p>注文する商品</p>
+        <table id="table">
+            <tr><th>商品名</th><th>個数</th></tr>
+            <tr>
+                <td>
+                    <select id="items1">
+                        <option value=""></option>
+                        <option value="gyoza">餃子</option>
+                        <option value="shumai">焼売</option>
+                        <option value="shorompo">小籠包</option>
+                    </select>
+                </td>
+                <td>
+                    <select id="num1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="items2">
+                        <option value=""></option>
+                        <option value="gyoza">餃子</option>
+                        <option value="shumai">焼売</option>
+                        <option value="shorompo">小籠包</option>
+                    </select>
+                </td>
+                <td>
+                    <select id="num2">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="items3">
+                        <option value=""></option>
+                        <option value="gyoza">餃子</option>
+                        <option value="shumai">焼売</option>
+                        <option value="shorompo">小籠包</option>
+                    </select>
+                </td>
+                <td>
+                    <select id="num3">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <button id="submit">送信</button>
+        <div id="result" style="display: none;">
+            <table>
+                <tr><th>商品名</th><th>数量</th><th>小計</th></tr>
+                <tr><td id="g1"></td><td id="n1"></td><td id="p1"></td></tr>
+                <tr><td id="g2"></td><td id="n2"></td><td id="p2"></td></tr>
+                <tr><td id="g3"></td><td id="n3"></td><td id="p3"></td></tr>
+            </table>
+            <p>合計金額は<span id="total"></span>円です。</p>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/practice35.js"></script>
+    </body>
+</html>

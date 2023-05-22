@@ -1,0 +1,28 @@
+.item{
+    border: 3px solid #000000;
+    border-radius: 10px;   /*ボーダーの角を丸くするプロパティ*/
+    margin: 40px auto;    /*上下方向には40pxのマージンを取り、左右方向には中央揃え*/
+    font-size: 30px;
+    width: 80%;
+    max-width: 600px;
+}
+
+#result{
+    font-size: 80px;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.back_lightPink{
+    background-color: #ffe0ff;
+}
+
+.back_darkPink{
+    background-color: #ff90ff;
+}
